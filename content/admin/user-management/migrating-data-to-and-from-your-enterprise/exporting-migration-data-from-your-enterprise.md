@@ -19,6 +19,8 @@ topics:
   - Migration
 shortTitle: Export from your enterprise
 ---
+_NOTE: This process does not currently support the migration of LFS objects. However, you can follow [these steps](https://docs.github.com/en/enterprise-server@3.2/admin/user-management/managing-repositories-in-your-enterprise/configuring-git-large-file-storage-for-your-enterprise) in order to do so. Although that article references a third-party LFS server, the steps are the same when you are moving from one GitHub Enterprise Server to another._
+
 ## Preparing the {% data variables.product.prodname_ghe_server %} source instance
 
 1. Verify that you are a site administrator on the {% data variables.product.prodname_ghe_server %} source. The best way to do this is to verify that you can [SSH into the instance](/enterprise/admin/guides/installation/accessing-the-administrative-shell-ssh/).
